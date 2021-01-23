@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home4/theaspe9/public_html/
     - /bin/cp /home4/theaspe9/repositories/coming/index.html $DEPLOYPATH
+    - /bin/cp /home4/theaspe9/repositories/coming/style.css $DEPLOYPATH
     - /bin/cp -R /home4/theaspe9/repositories/coming/css $DEPLOYPATH
     - /bin/cp -R /home4/theaspe9/repositories/coming/images $DEPLOYPATH
     - /bin/cp -R /home4/theaspe9/repositories/coming/include $DEPLOYPATH
